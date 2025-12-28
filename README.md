@@ -40,9 +40,9 @@ python3 src/train.py --data data/sample_listings.csv
 ```
 
 This will create:
-- models/model.joblib
-- outputs/metrics.json
-- outputs/residuals.png (and/or other plots)
+- `models/model.joblib`
+- `outputs/metrics.json`
+- `outputs/residuals.png` (and/or other plots)
 
 ### 3) Predict on new rows
 ```bash
@@ -53,8 +53,8 @@ python3 src/predict.py --model models/model.joblib --input data/sample_new_listi
 
 ## Data 
 This repo uses tiny sample CSVs for demo purposes:
-- data/sample_listings.csv (training)
-- data/sample_new_listings.csv (inference)
+- `data/sample_listings.csv` (training)
+- `data/sample_new_listings.csv` (inference)
 Real listing data should stay private and should not be committed.
 
 ---
