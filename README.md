@@ -25,6 +25,10 @@ Given listing features (size, rooms, zip, area, etc.), the project trains a regr
 - `models/` — saved model artifacts
 - `outputs/` — metrics + plots (example artifacts)
 
+### Example output
+![Residuals plot](outputs/residuals.png)
+`outputs/metrics.json`
+
 ---
 
 ## Quickstart (local)
