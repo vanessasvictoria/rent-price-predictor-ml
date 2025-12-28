@@ -222,3 +222,8 @@ models/*
 !outputs/report.txt
 !models/.gitkeep
 !data/.gitkeep
+
+# ---- Allow a couple of demo artifacts for the README ----
+!outputs/metrics.json
+!outputs/residuals.png
+

@@ -1,0 +1,10 @@
+{
+  "rows": 10,
+  "features": 7,
+  "test_size": 0.2,
+  "seed": 42,
+  "mae": 162.7499999999999,
+  "rmse": 168.3134064113068,
+  "baseline_mae": 375.0,
+  "baseline_rmse": 465.02688094345683
+}
